@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import Pagina from "./components/Pagina";
+/*import Pagina from "./components/Pagina";*/
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Nav />
       <div className="w-full h-screen"></div>
-      <section id='Pagina' className="w-full h-screen"></section>
+      <section id='Sobre' className="w-full h-screen"></section>
       <section id='Projetos' className="w-full h-screen"></section>
       <section id='Habilidades' className="w-full h-screen"></section>
       <section id='Contato' className="w-full h-screen"></section>
