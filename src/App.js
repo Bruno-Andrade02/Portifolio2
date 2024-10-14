@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./components/Nav";
+import Pagina from "./components/Pagina";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <div className="w-full h-screen"></div>
+      <section id='Pagina' className="w-full h-screen"></section>
+      <section id='Projetos' className="w-full h-screen"></section>
+      <section id='Habilidades' className="w-full h-screen"></section>
+      <section id='Contato' className="w-full h-screen"></section>
+
+
+
+
+
+    </>
+    /*<h1 className="text-3xl font-bold underline">Hello world!</h1>*/
   );
 }
 
